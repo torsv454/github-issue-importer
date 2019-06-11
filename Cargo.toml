@@ -1,0 +1,11 @@
+[package]
+name = "github-issue-importer"
+version = "0.1.0"
+authors = ["Tord Svensson <tords@spotify.com>"]
+edition = "2018"
+
+[dependencies]
+reqwest = "0.9.18"
+csv = "1"
+clap = "2.33"
+serde = "1.0.92"
